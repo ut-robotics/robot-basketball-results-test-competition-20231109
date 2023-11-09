@@ -3,7 +3,8 @@
   "name": "Test Competition 2023-11-09",
   "robots": [
     {"id": "tasujad", "name": "Tasujad"},
-    {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
+    {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+    {"id": "delta-y", "name": "Delta Y"}
   ],
   "tournament": null
 }
