@@ -405,10 +405,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 5,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1699552967193, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -469,86 +469,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "team-electronics", "name": "Team Electronics"},
-      {"id": "hi-bot", "name": "Hi...Bot"}
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      {"id": "tasujad", "name": "Tasujad"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1699552528567, "isValid": true},
-            {"time": 1699552537384, "isValid": true},
-            {"time": 1699552541183, "isValid": true},
-            {"time": 1699552555893, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60093,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1699552496303, "endTime": 1699552556396}]
-      },
-      {
-        "scores": [[{"time": 1699552680868, "isValid": true}], []],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60043,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 5,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1699552623402, "endTime": 1699552683445}]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1699552785278, "isValid": true},
-            {"time": 1699552794588, "isValid": true},
-            {"time": 1699552802539, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1699552823003}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60103,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1699552759165, "endTime": 1699552814331},
-          {"startTime": 1699552852147, "endTime": 1699552857084}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1699552967193, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "hi-bot", "name": "Hi...Bot"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.69, -0.09],
-      [0.69, 0.09],
-      [0.79, 1.29],
-      [-0.79, -1.29],
-      [-0.39, 0.27],
-      [0.39, -0.27],
-      [1.75, 0.92],
-      [-1.75, -0.92],
-      [1.59, -0.32],
-      [-1.59, 0.32]
+      [1.06, 1.41],
+      [-1.06, -1.41],
+      [2.07, -0.37],
+      [-2.07, 0.37],
+      [-0.48, -0.84],
+      [0.48, 0.84],
+      [-1.69, -0.6],
+      [1.69, 0.6],
+      [-0.75, -0.08],
+      [0.75, 0.08]
     ]
   }
 }
