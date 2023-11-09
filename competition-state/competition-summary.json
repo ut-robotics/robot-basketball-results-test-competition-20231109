@@ -39,10 +39,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 7,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1699550324970, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -134,5 +134,42 @@
       "tasujad": ["blue"]
     },
     "hasEnded": false
+  },
+  "activeGame": {
+    "id": 1,
+    "robots": [
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      {"id": "team-electronics", "name": "Team Electronics"}
+    ],
+    "startingBaskets": ["blue", "magenta"],
+    "isTieAllowed": true,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "baskets": ["blue", "magenta"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 7,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1699550324970, "endTime": null}]
+      }
+    ],
+    "status": {"result": "unknown"},
+    "ballPlacement": [
+      [0, 0],
+      [-1.6, -0.9],
+      [1.6, 0.9],
+      [-1.01, -0.8],
+      [1.01, 0.8],
+      [1.3, -0.67],
+      [-1.3, 0.67],
+      [0.35, 1],
+      [-0.35, -1],
+      [0.69, -1.05],
+      [-0.69, 1.05]
+    ]
   }
 }
