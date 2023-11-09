@@ -1,6 +1,9 @@
 {
   "id": "test-competition-20231109",
   "name": "Test Competition 2023-11-09",
-  "robots": [{"id": "tasujad", "name": "Tasujad"}],
+  "robots": [
+    {"id": "tasujad", "name": "Tasujad"},
+    {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
+  ],
   "tournament": null
 }
