@@ -8,5 +8,131 @@
     {"id": "team-electronics", "name": "Team Electronics"},
     {"id": "hi-bot", "name": "Hi...Bot"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "hi-bot", "name": "Hi...Bot"},
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      {"id": "team-electronics", "name": "Team Electronics"},
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "tasujad", "name": "Tasujad"}
+    ],
+    "roundCount": 3,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+          {"id": "team-electronics", "name": "Team Electronics"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.6, -0.9],
+          [1.6, 0.9],
+          [-1.01, -0.8],
+          [1.01, 0.8],
+          [1.3, -0.67],
+          [-1.3, 0.67],
+          [0.35, 1],
+          [-0.35, -1],
+          [0.69, -1.05],
+          [-0.69, 1.05]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "delta-y", "name": "Delta Y"},
+          {"id": "tasujad", "name": "Tasujad"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.39, -1.43],
+          [-1.39, 1.43],
+          [-1.98, 0.45],
+          [1.98, -0.45],
+          [-2.09, -0.76],
+          [2.09, 0.76],
+          [-0.43, 0.54],
+          [0.43, -0.54],
+          [-1.2, -0.18],
+          [1.2, 0.18]
+        ]
+      }
+    ],
+    "byes": [{"robotID": "hi-bot"}],
+    "robotScores": [
+      {
+        "robot": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "team-electronics", "name": "Team Electronics"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "delta-y", "name": "Delta Y"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "tasujad", "name": "Tasujad"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "hi-bot", "name": "Hi...Bot"},
+        "score": 1,
+        "tieBreakScore": 0
+      }
+    ],
+    "robotStartingBaskets": {
+      "hi-bot": [],
+      "legiones-skitarii": ["blue"],
+      "team-electronics": ["magenta"],
+      "delta-y": ["magenta"],
+      "tasujad": ["blue"]
+    },
+    "hasEnded": false
+  }
 }
