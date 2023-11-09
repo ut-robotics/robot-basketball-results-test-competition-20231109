@@ -180,10 +180,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 5,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1699551531844, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -277,75 +277,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 2,
+    "id": 3,
     "robots": [
       {"id": "delta-y", "name": "Delta Y"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "team-electronics", "name": "Team Electronics"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[{"time": 1699550940905, "isValid": true}], []],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60058,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1699550923932, "endTime": 1699550983990}]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1699551094638, "isValid": true},
-            {"time": 1699551097278, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60071,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1699551078841, "endTime": 1699551138912}]
-      },
-      {
-        "scores": [
-          [{"time": 1699551223582, "isValid": true}],
-          [{"time": 1699551280973, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1699551243591}], [{"time": 1699551306378}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60062,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 5,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1699551206122, "endTime": 1699551231723},
-          {"startTime": 1699551271854, "endTime": 1699551297255},
-          {"startTime": 1699551341912, "endTime": 1699551350972}
-        ]
+        "runs": [{"startTime": 1699551531844, "endTime": null}]
       }
     ],
-    "status": {"result": "tied"},
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.39, -1.43],
-      [-1.39, 1.43],
-      [-1.98, 0.45],
-      [1.98, -0.45],
-      [-2.09, -0.76],
-      [2.09, 0.76],
-      [-0.43, 0.54],
-      [0.43, -0.54],
-      [-1.2, -0.18],
-      [1.2, 0.18]
+      [-0.61, -0.22],
+      [0.61, 0.22],
+      [-1.11, -1.38],
+      [1.11, 1.38],
+      [0.71, -0.62],
+      [-0.71, 0.62],
+      [-0.51, -1.04],
+      [0.51, 1.04],
+      [1.64, 0.15],
+      [-1.64, -0.15]
     ]
   }
 }
