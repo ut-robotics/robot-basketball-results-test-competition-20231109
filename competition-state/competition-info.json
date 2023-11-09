@@ -22,14 +22,18 @@
       {"id": "tasujad", "name": "Tasujad"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4],
-    "byes": [{"robotID": "hi-bot"}, {"robotID": "legiones-skitarii"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "byes": [
+      {"robotID": "hi-bot"},
+      {"robotID": "legiones-skitarii"},
+      {"robotID": "delta-y"}
+    ],
     "robotStartingBaskets": {
-      "hi-bot": ["blue"],
-      "legiones-skitarii": ["blue"],
-      "team-electronics": ["magenta", "magenta"],
+      "hi-bot": ["blue", "magenta"],
+      "legiones-skitarii": ["blue", "magenta"],
+      "team-electronics": ["magenta", "magenta", "blue"],
       "delta-y": ["magenta", "blue"],
-      "tasujad": ["blue", "magenta"]
+      "tasujad": ["blue", "magenta", "blue"]
     },
     "hasEnded": false
   }
